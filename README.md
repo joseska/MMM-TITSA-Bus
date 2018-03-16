@@ -1,8 +1,7 @@
 # MMM-TITSA-Bus
-MagicMirror² Module (https://github.com/MichMich/MagicMirror/) para TITSA bus.
+MagicMirror² Module (https://github.com/MichMich/MagicMirror/) para TITSA bus. Este modulo muestra la información de las guaguas de TITSA a partir de una parada especificada. 
 
-# Module: MMM-TITSA-Bus
-Este modulo muestra la información de las guaguas de TITSA a partir de una parada especificada. 
+![Alt text](/screenshots/MMM-TITSA-Bus.jpg?raw=true "Screenshot")
 
 ## Instalación
 
@@ -32,10 +31,10 @@ modules: [
 
 | Option           | Description
 |----------------- |-----------
-| `idParada`       | *Required* el numero de parada que quieres mostrar. (http://titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-011).
-| `IdApp   `       | *Required* ID necesario para utilizar la API de TITSA. (http://www.tenerifedata.com/dataset/titsa-informacion-sobre-sistema-de-transporte).
-| `updateInterval` | *Optional* Cada cuanto tiempo se actualiza la información. <br><br>**Type:** `int`(milliseconds) <br>Default 60000 (1 minute)
-| `animationSpeed` | *Optional* Velocidad de la animacion de la actualización. <br><br>**Type:** `int`(milliseconds) <br>Default 2000 milliseconds (2 seconds)
+| `idParada`       | *Required* - El numero de parada que quieres mostrar. (http://titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-011).
+| `IdApp   `       | *Required* - ID necesario para utilizar la API de TITSA. (http://www.tenerifedata.com/dataset/titsa-informacion-sobre-sistema-de-transporte).
+| `updateInterval` | *Optional* - Cada cuanto tiempo se actualiza la información. <br><br>**Type:** `int`(milliseconds) <br>Default 60000 (1 minute).
+| `animationSpeed` | *Optional* - Velocidad de la animacion de la actualización. <br><br>**Type:** `int`(milliseconds) <br>Default 2000 milliseconds (2 seconds).
 
 ## Dependencias
 - [Request] - instalado via `npm install`
