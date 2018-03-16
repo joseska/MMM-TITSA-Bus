@@ -1,0 +1,42 @@
+.MMM-Xiaomi-Vacuum .name {
+  padding-left: 0;
+  padding-right: 25px;
+  text-align: left;
+}
+
+.MMM-Xiaomi-Vacuum .phase {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.MMM-Xiaomi-Vacuum .battery {
+  padding-left: 15px;
+  padding-right: 0;
+}
+.xm-icon {
+  float: left;
+  padding-left: 0px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+
+.linea {
+  float: left;
+  padding-right: 5px;
+}
+.destino {
+  float: left;
+  padding-right: 5px;
+}
+.minutos {
+  float: left;
+  padding-right: 5px;
+}
+.near {
+    color: lightgreen;
+}
+
+.near .bright {
+    color: lightgreen;
+}

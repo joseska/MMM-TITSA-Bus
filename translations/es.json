@@ -1,0 +1,10 @@
+{
+  "FULL": "Completo",
+  "CHARGING": "Cargando",
+  "RETURNING_HOME": "Volviendo a Casa",
+  "CLEANING": "Limpiando",
+  "STOP": "Parado",
+  "PAUSED": "Pausado",
+  "CHARGER DISCONNECTED": "Desconectada",
+  "UNKNOWN": "Desconocido"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "mmm-titsa-bus",
+  "version": "1.0.0",
+  "description": "This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/). It pulls data (name + job, bin and battery status) from a Roomba running on the local network using miio and displays them on the mirror.",
+  "main": "MMM-TITSA-Bus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseska/MMM-TITSA-Bus.git"
+  },
+  "author": "Jose M. Luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseska/MMM-TITSA-Bus/issues"
+  },
+  "homepage": "https://github.com/joseska/MMM-TITSA-Bus#readme",
+  "dependencies": {
+    "request": "^2.85.0",
+    "xml2js": "^0.4.19"
+  }
+}
