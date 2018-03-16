@@ -33,6 +33,7 @@ modules: [
 |----------------- |-----------
 | `idParada`       | *Required* - El numero de parada que quieres mostrar. (http://titsa.com/index.php/tus-guaguas/lineas-y-horarios/linea-011).
 | `IdApp   `       | *Required* - ID necesario para utilizar la API de TITSA. (http://www.tenerifedata.com/dataset/titsa-informacion-sobre-sistema-de-transporte).
+| `warningTime   ` | *Optional* - Si el tiempo de llegada de la guagua es inferior al 'warningTime', muestra el icono de la guagua en color verde. <br><br>**Tipo:** `int`(milisegundos) <br>Por Defecto: 60000 ms (1 minuto).
 | `updateInterval` | *Optional* - Cada cuanto tiempo se actualiza la información. <br><br>**Tipo:** `int`(milisegundos) <br>Por Defecto: 60000 ms (1 minuto).
 | `animationSpeed` | *Optional* - Velocidad de la animacion de la actualización. <br><br>**Tipo:** `int`(milisegundos) <br>Por Defecto: 2000 ms (2 segundos).
 
