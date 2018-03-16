@@ -40,3 +40,5 @@ modules: [
 - [Request] - instalado via `npm install`
 - [xml2js] - instalado via `npm install`
 
+![Alt text](/screenshots/MMM-TITSA-Bus2.jpg?raw=true "Screenshot 2")
+
